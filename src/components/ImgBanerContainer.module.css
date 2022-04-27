@@ -1,0 +1,17 @@
+.banner {
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 300px;
+}
+
+
+.imgBannerContainer {
+    width: 70vw;
+}
+@media(max-width: 768px) {
+    .imgBannerContainer {
+        width: 100vw;
+    }
+}

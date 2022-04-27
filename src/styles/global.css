@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+    background-color: #f5ebd4;
+}
+
+a:hover{
+    color: #3a9104;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+    white-space: pre-wrap;
+}
+
+strong{
+    text-transform:inherit;
+    
+}

@@ -1,0 +1,23 @@
+.data{
+    position: absolute;
+    left: -6px;
+    z-index: 3000;
+    width: 15vw;
+    top: 31.25vw;
+    transform: translate(0%, -25%);
+    background-color: white;
+    font-size: 0.9rem;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+@media (max-width: 426px) {
+    
+}
+@media(max-width: 769px) {
+
+}
+@media (min-width: 770px) and (max-width: 1024px) {
+ 
+}
+
+

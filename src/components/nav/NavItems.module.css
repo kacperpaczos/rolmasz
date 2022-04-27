@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nav *{
+    box-sizing: border-box;
+}
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+}
+
+.nav ul li {
+    text-transform: uppercase;
+    font-size: bold;
+}
+
+.nav ul li a:last-of-type {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+

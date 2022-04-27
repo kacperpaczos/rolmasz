@@ -1,0 +1,145 @@
+.article {
+    width: 70vw;
+    min-height: 30px;
+
+    margin: 0px auto auto;
+
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+.article h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #3a9104;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.pbulist {
+    padding-top: 15px;
+    margin-bottom: 0;
+    text-indent: 0;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+.pbulistb {
+    padding-top: 15px;
+    margin-bottom: 0;
+    text-indent: 0;
+    font-weight: bold;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+.pbulistb ul {
+    font-weight: normal;
+    margin: 5px 0 0 25px;
+    padding: 0;
+}
+
+.pbulist ul {
+    font-weight: normal;
+    margin: 5px 0 0 25px;
+    padding: 0;
+}
+
+.pbulist ul a, .pbulistb ul a{
+    text-transform: lowercase;
+    color: #0d52bf;
+}
+ul li{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.pbulist ul li::before {
+    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #3a9104; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.scolor{
+    color: #3a9104;
+}
+
+.pcenter{
+    text-align: center;
+    text-indent: 0px;
+    padding: 0px;
+    margin: 0px;
+
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+}
+
+table{
+    padding: 10px;
+    margin:auto;
+
+}
+table td{
+    padding: 6px;
+    border: 1px solid #4d4d4d;
+    margin:0px;
+    border-spacing: 0px;
+}
+table th{
+    padding: 8px;
+    background-color: #667885;
+    color: white;
+}
+
+article section{
+    width: 80%;
+    margin: auto;
+}
+
+article h3{
+    margin-bottom: 0px;
+    text-align: center;
+    color: #3a9104;
+}
+
+h3.orange{
+    color: #ff8000 !important;
+}
+h3.black{
+    color: #222 !important;
+}
+
+.yellow{
+    background-color: #FFF088;
+}
+
+.orange{
+    color: #ff8000 !important;
+}
+
+@media (max-width: 768px) {
+    .article {
+        width: 100vw;
+
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+p{
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 1.10em;
+}

@@ -1,0 +1,25 @@
+.logo {
+    width: 330px;
+    min-height: 30px;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    top: 0;
+
+    transform: translate(0px, 0px);
+
+}
+.banner {
+    height: 280px;
+}
+@media(max-width: 768px) {
+    .logo {
+        width: 200px !important;
+        left: 50vw;
+        transform: translate(-50%, 0px);
+    }
+    .banner {
+        height: 400px;
+    }
+}
