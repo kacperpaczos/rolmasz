@@ -32,7 +32,7 @@ export default function index() {
           </p>
           <p>Telefon do kontaktu: <strong>601 832 082</strong>.</p>
         </section>
-        <section>
+        {/*<section>
             <h3>Stacja Paliw</h3>
           <p className={ArticleStyles.pbulistb}>Firma PHUP Rolmasz Sp. z o.o. sprzedaje Stację Paliw z dużą działką:
             <ul>
@@ -40,7 +40,7 @@ export default function index() {
             </ul>
           </p>
           <p>Telefon do kontaktu: <strong>601 832 082</strong>.</p>
-        </section>
+        </section>*/}
         <section>
             <h3>Sprzedam kompleksowe wyposażenie ze stali nierdzewnej</h3>
           <p className={ArticleStyles.pbulistb}>Sprzedam kompleksowe wyposażenie ze stali nierdzewnej dużej kuchni i baru tj.:
