@@ -9,7 +9,8 @@
 
 2. ****Install Additional Dependencies****
    
-   Gatsby requires some additional dependencies. Run the following command to install them.
+   Gatsby requires some additional dependencies.
+   Run the following command to install them.
    
    ```shell
    yarn add gatsby-plugin-react-helmet gatsby-plugin-google-fonts babel-plugin-styled-components styled-components react-device-detect react-helmet react-fast-marquee gatsby-plugin-styled-components
@@ -17,13 +18,13 @@
 
 3. **Develop!**
    
-   Your site is now running at [http://localhost:8000](http://localhost:8000)!
+   You can develop your website using this command
    
    ```shell
    yarn develop
    ```
    
-    Your site will be available for deployment.
+   Your site is now running at [http://localhost:8000](http://localhost:8000)!
 
 4. ****Build Your Static Website****
    
